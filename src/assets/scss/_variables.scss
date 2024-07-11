@@ -1,0 +1,15 @@
+// Color scheme for light theme
+:root{
+    --system-primary: #ffffff;
+    --system-text: red;
+}
+
+// Color scheme for dark theme
+.dark{
+    --system-primary: #11071F;
+    --system-text: green;
+}
+
+// Color Variables
+$primary: var(--system-primary);
+$text: var(--system-text);
