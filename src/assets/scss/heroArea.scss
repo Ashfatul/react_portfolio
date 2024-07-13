@@ -3,11 +3,17 @@
 @import "base";
 
 .heroArea{
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px 0;
+    margin: 50px 0;
+    background: rgba(0,0,0,0.4);
+    height: calc(100% - 100px);
+    padding: 50px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba($color: $white, $alpha: 0.3);
     &_grid{
         display: grid;
         grid-template-columns: 1.4fr 2fr;
@@ -55,14 +61,6 @@
     }
 
     &_right{
-        background: rgba(0,0,0,0.5);
-        height: calc(100% - 100px);
-        padding: 50px;
-        border-radius: 10px;
-        position: relative;
-        overflow: hidden;
-        box-shadow: 0 0 10px rgba($color: $white, $alpha: 0.3);
-
         &::before{
             content: '';
             height: 300px;
