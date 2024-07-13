@@ -1,13 +1,19 @@
 import './assets/scss/style.scss';
+import AboutSection from './components/AboutSection';
 import HeroArea from './components/HeroArea';
-// import ThemeToggler from './components/ThemeToggler';
+import SectionTitle from './components/SectionTitle';
+import ThemeToggler from './components/ThemeToggler';
 
 function App() {
 
   return (
     <div className="container">
-      {/* <ThemeToggler /> */}
+      <ThemeToggler />
       <HeroArea/>
+
+      <SectionTitle title="About Me" subtitle="Brief Information about me"/>
+
+      <AboutSection/>
     </div>
   )
 }
