@@ -1,0 +1,59 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Signika:wght@300..700&display=swap');
+
+$font1: "Signika", sans-serif;
+$font2: "Inter", sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: $font2;
+}
+
+p{
+    font-family: $font2;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: $font1;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    
+    @include sMobile {
+        max-width: 320px; // Small mobile
+    }
+
+    @include mobile {
+        max-width: 480px; // Mobile
+    }
+
+    @include sTab {
+        max-width: 540px; // Small tablet
+    }
+
+    @include tab {
+        max-width: 720px; // Tablet
+    }
+
+    @include sLaptop {
+        max-width: 960px; // Small laptop
+    }
+
+    @include laptop {
+        max-width: 1140px; // Laptop
+    }
+
+    @include sDesktop {
+        max-width: 1140px; // Small desktop
+    }
+
+    @include desktop {
+        max-width: 1440px; // Desktop
+    }
+}

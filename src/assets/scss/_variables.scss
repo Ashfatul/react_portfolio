@@ -1,15 +1,24 @@
+@import "base";
+
 // Color scheme for light theme
 :root{
+    --white: #ffffff;
+    --black: #000000;
+    --system-primary: #11071F;
+    --system-text: #ffffff;
+}
+
+// Color scheme for dark theme
+.light{
+    --white: #ffffff;
+    --black: #000000;
     --system-primary: #ffffff;
     --system-text: red;
 }
 
-// Color scheme for dark theme
-.dark{
-    --system-primary: #11071F;
-    --system-text: green;
-}
-
 // Color Variables
+
+$white: var(--white);
+$black: var(--black);
 $primary: var(--system-primary);
 $text: var(--system-text);

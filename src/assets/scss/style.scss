@@ -1,4 +1,6 @@
-@import 'variables';
+@import "media";
+@import "variables";
+@import "base";
 
 body{
     background: $primary;

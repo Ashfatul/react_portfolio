@@ -5,7 +5,7 @@ export default function ThemeToggler() {
 
     useEffect(() => {
       let documentRoot = document.querySelector("html");
-      darkTheme ? documentRoot.classList.add("dark") : documentRoot.classList.remove("dark");
+      darkTheme ? documentRoot.classList.add("light") : documentRoot.classList.remove("light");
     }, [darkTheme])
 
     const changeTheme = () => {
@@ -14,7 +14,7 @@ export default function ThemeToggler() {
   return (
     <div>
         <button onClick={changeTheme}>
-            {darkTheme ? "Light" : "Dark"}
+            {darkTheme ? "Dark" : "Light"}
         </button>
     </div>
   )

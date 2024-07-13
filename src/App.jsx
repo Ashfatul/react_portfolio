@@ -1,12 +1,14 @@
 import './assets/scss/style.scss';
-import ThemeToggler from './components/ThemeToggler';
+import HeroArea from './components/HeroArea';
+// import ThemeToggler from './components/ThemeToggler';
 
 function App() {
 
   return (
-    <>
-      <ThemeToggler />
-    </>
+    <div className="container">
+      {/* <ThemeToggler /> */}
+      <HeroArea/>
+    </div>
   )
 }
 
