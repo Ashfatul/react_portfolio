@@ -1,0 +1,33 @@
+@import "media";
+@import "variables";
+@import "base";
+
+.toolsSection{
+    display: flex;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    column-gap: 50px;
+    margin: 50px 0;
+
+    .singleTools{
+        background: rgba(0,0,0,0.3);
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img{
+            height: 40px;
+            width: 40px;
+            overflow: hidden;
+            background: $white;
+        }
+        span{
+            display: inline-block;
+            font-size: 18px;
+        }
+    }
+}

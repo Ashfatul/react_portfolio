@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "icon": "https://example.com/icons/html5.png",
+        "title": "HTML5"
+    },
+    {
+        "id": 2,
+        "icon": "https://example.com/icons/css3.png",
+        "title": "CSS3"
+    },
+    {
+        "id": 3,
+        "icon": "https://example.com/icons/javascript.png",
+        "title": "JavaScript"
+    },
+    {
+        "id": 4,
+        "icon": "https://example.com/icons/react.png",
+        "title": "React"
+    },
+    {
+        "id": 5,
+        "icon": "https://example.com/icons/redux.png",
+        "title": "Redux"
+    },
+    {
+        "id": 6,
+        "icon": "https://example.com/icons/vue.png",
+        "title": "Vue.js"
+    },
+    {
+        "id": 7,
+        "icon": "https://example.com/icons/angular.png",
+        "title": "Angular"
+    },
+    {
+        "id": 8,
+        "icon": "https://example.com/icons/bootstrap.png",
+        "title": "Bootstrap"
+    },
+    {
+        "id": 9,
+        "icon": "https://example.com/icons/sass.png",
+        "title": "Sass"
+    },
+    {
+        "id": 10,
+        "icon": "https://example.com/icons/typescript.png",
+        "title": "TypeScript"
+    }
+]

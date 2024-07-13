@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "icon": "https://example.com/icons/vscode.png",
+        "title": "Visual Studio Code"
+    },
+    {
+        "id": 2,
+        "icon": "https://example.com/icons/webstorm.png",
+        "title": "WebStorm"
+    },
+    {
+        "id": 3,
+        "icon": "https://example.com/icons/sublime.png",
+        "title": "Sublime Text"
+    },
+    {
+        "id": 4,
+        "icon": "https://example.com/icons/brackets.png",
+        "title": "Brackets"
+    },
+    {
+        "id": 5,
+        "icon": "https://example.com/icons/atom.png",
+        "title": "Atom"
+    },
+    {
+        "id": 6,
+        "icon": "https://example.com/icons/github.png",
+        "title": "GitHub"
+    },
+    {
+        "id": 7,
+        "icon": "https://example.com/icons/git.png",
+        "title": "Git"
+    },
+    {
+        "id": 8,
+        "icon": "https://example.com/icons/npm.png",
+        "title": "npm"
+    },
+    {
+        "id": 9,
+        "icon": "https://example.com/icons/yarn.png",
+        "title": "Yarn"
+    },
+    {
+        "id": 10,
+        "icon": "https://example.com/icons/webpack.png",
+        "title": "Webpack"
+    },
+    {
+        "id": 11,
+        "icon": "https://example.com/icons/gulp.png",
+        "title": "Gulp"
+    },
+    {
+        "id": 12,
+        "icon": "https://example.com/icons/babel.png",
+        "title": "Babel"
+    },
+    {
+        "id": 13,
+        "icon": "https://example.com/icons/eslint.png",
+        "title": "ESLint"
+    },
+    {
+        "id": 14,
+        "icon": "https://example.com/icons/prettier.png",
+        "title": "Prettier"
+    },
+    {
+        "id": 15,
+        "icon": "https://example.com/icons/chrome-devtools.png",
+        "title": "Chrome DevTools"
+    }
+]
