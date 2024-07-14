@@ -2,6 +2,7 @@ import './assets/scss/style.scss';
 import AboutSection from './components/AboutSection';
 import EducationExperience from './components/EducationExperience';
 import HeroArea from './components/HeroArea';
+import Projects from './components/Projects';
 import SectionTitle from './components/SectionTitle';
 import TechnologySection from './components/TechnologySection';
 import ThemeToggler from './components/ThemeToggler';
@@ -30,6 +31,10 @@ function App() {
       <SectionTitle title="Education & Experience" subtitle="Education and experience through out the years"/>
 
       <EducationExperience/>
+
+      <SectionTitle title="My Projects" subtitle="Projects I have worked on"/>
+
+      <Projects/>
     </div>
   )
 }
