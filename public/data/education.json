@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "dataType": "edu",
+        "institution": "Harvard University",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Computer Science",
+        "startYear": 2012,
+        "endYear": 2016
+    },
+    {
+        "id": 2,
+        "dataType": "edu",
+        "institution": "Massachusetts Institute of Technology",
+        "degree": "Master of Science",
+        "fieldOfStudy": "Artificial Intelligence",
+        "startYear": 2017,
+        "endYear": 2019
+    },
+    {
+        "id": 3,
+        "dataType": "edu",
+        "institution": "Stanford University",
+        "degree": "Ph.D.",
+        "fieldOfStudy": "Machine Learning",
+        "startYear": 2019,
+        "endYear": 2023
+    },
+    {
+        "id": 4,
+        "dataType": "edu",
+        "institution": "University of California, Berkeley",
+        "degree": "Bachelor of Arts",
+        "fieldOfStudy": "Data Science",
+        "startYear": 2014,
+        "endYear": 2018
+    }
+]

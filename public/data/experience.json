@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "dataType": "exp",
+        "company": "Google",
+        "position": "Software Engineer",
+        "startDate": "2016-07-01",
+        "endDate": "2019-06-30"
+    },
+    {
+        "id": 2,
+        "dataType": "exp",
+        "company": "Facebook",
+        "position": "Senior Software Engineer",
+        "startDate": "2019-07-01",
+        "endDate": "2021-12-31"
+    },
+    {
+        "id": 3,
+        "dataType": "exp",
+        "company": "Microsoft",
+        "position": "Lead Developer",
+        "startDate": "2022-01-01",
+        "endDate": "2023-12-31"
+    },
+    {
+        "id": 4,
+        "dataType": "exp",
+        "company": "Amazon",
+        "position": "Principal Engineer",
+        "startDate": "2024-01-01",
+        "endDate": "Present"
+    }
+]

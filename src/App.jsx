@@ -1,5 +1,6 @@
 import './assets/scss/style.scss';
 import AboutSection from './components/AboutSection';
+import EducationExperience from './components/EducationExperience';
 import HeroArea from './components/HeroArea';
 import SectionTitle from './components/SectionTitle';
 import TechnologySection from './components/TechnologySection';
@@ -25,6 +26,10 @@ function App() {
       <SectionTitle title="Tools" subtitle="Tools I Have Worked With"/>
 
       <ToolsSection/>
+
+      <SectionTitle title="Education & Experience" subtitle="Education and experience through out the years"/>
+
+      <EducationExperience/>
     </div>
   )
 }
