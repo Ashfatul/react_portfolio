@@ -30,7 +30,7 @@
             width: 300px;
             border-radius: 100%;
             display: block;
-            background: radial-gradient(#4d2485, transparent);
+            background: radial-gradient($secondary, transparent);
             position: absolute;
             z-index: -1;
             top: -100px;
@@ -43,7 +43,7 @@
             width: 300px;
             border-radius: 100%;
             display: block;
-            background: radial-gradient(#4d2485, transparent);
+            background: radial-gradient($secondary, transparent);
             position: absolute;
             z-index: -1;
             bottom: -100px;
@@ -67,7 +67,7 @@
             width: 300px;
             border-radius: 100%;
             display: block;
-            background: radial-gradient(#4d2485, transparent);
+            background: radial-gradient($secondary, transparent);
             position: absolute;
             z-index: -1;
             left: 0%;
@@ -82,7 +82,7 @@
             width: 300px;
             border-radius: 100%;
             display: block;
-            background: radial-gradient(#4d2485, transparent);
+            background: radial-gradient($secondary, transparent);
             position: absolute;
             z-index: -1;
             bottom: -100px;

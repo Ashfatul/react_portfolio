@@ -5,6 +5,8 @@
     --white: #ffffff;
     --black: #000000;
     --system-primary: #11071F;
+    --system-secondary: #4d2485;
+    --system-secondary80: #4d248580;
     --system-text: #ffffff;
 }
 
@@ -13,6 +15,8 @@
     --white: #ffffff;
     --black: #000000;
     --system-primary: #ffffff;
+    --system-secondary: #4d2485;
+    --system-secondary80: #4d248580;
     --system-text: #000000;
 }
 
@@ -22,3 +26,5 @@ $white: var(--white);
 $black: var(--black);
 $primary: var(--system-primary);
 $text: var(--system-text);
+$secondary: var(--system-secondary);
+$secondary80: var(--system-secondary80);
