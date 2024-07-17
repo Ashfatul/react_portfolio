@@ -1,12 +1,12 @@
 import './assets/scss/style.scss';
 import AboutSection from './components/AboutSection';
+import ColorSettings from './components/ColorSettings';
 import EducationExperience from './components/EducationExperience';
 import Footer from './components/Footer';
 import HeroArea from './components/HeroArea';
 import Projects from './components/Projects';
 import SectionTitle from './components/SectionTitle';
 import TechnologySection from './components/TechnologySection';
-import ThemeToggler from './components/ThemeToggler';
 import ToolsSection from './components/ToolsSection';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <div className="container">
-        <ThemeToggler />
+        <ColorSettings />
 
         <HeroArea />
 

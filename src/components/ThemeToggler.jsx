@@ -12,9 +12,9 @@ export default function ThemeToggler() {
         setDarkTheme(!darkTheme);
     }
   return (
-    <div>
+    <div className="ThemeToggler">
         <button onClick={changeTheme}>
-            {darkTheme ? "Dark" : "Light"}
+            Theme {darkTheme ? "Dark" : "Light"}
         </button>
     </div>
   )
